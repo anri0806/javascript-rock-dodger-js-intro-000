@@ -79,7 +79,29 @@ function endGame() {
   alert("YOU LOSE!");
 }
 
+function moveDodger(e) {
+ if(e.which === 37) {
+   moveDodgerLeft();
+ } else if (e.which === 39) {
+   moveDodgerRight();
+ }
+}
 
+function moveDodgerLeft() {
+ var position = positionToInteger(dodger.style.left)
+
+ window.requestAnimationFrame(function moveLeft() {
+   dodger.style.left = `${position - 4}px}`)
+ }
+ }
+
+function moveDodgerRight() {
+ var position = positionToInteger(dodger.style.left)
+
+ window.requestAnimationFrame(function moveRight(){
+   dodger.style.left = `${position + 4}px`)
+ }
+}
 
 /**
  * @param {string} p The position property
