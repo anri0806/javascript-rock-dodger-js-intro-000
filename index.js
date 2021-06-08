@@ -87,6 +87,8 @@ function moveDodger(e) {
  }
 }
 
+
+
 function moveDodgerLeft() {
  var position = positionToInteger(dodger.style.left)
  window.requestAnimationFrame(function moveLeft() {
