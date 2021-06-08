@@ -88,6 +88,7 @@ function moveDodger(e) {
    * And be sure to use the functions declared below!
    */
  moveDodgerLeft()
+ if()
 }
 
 function moveDodgerLeft() {
