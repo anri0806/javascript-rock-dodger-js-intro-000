@@ -54,7 +54,9 @@ function createRock(x) {
 
   if (checkCollision(rock)){
      endGame();
-  } else if (){
+  }
+
+  if (top <= GAME_HEIGHT){
 
   }
     /**
