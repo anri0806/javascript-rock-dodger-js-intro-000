@@ -63,6 +63,7 @@ function createRock(x) {
   }
   }
 
+   window.requestAnimationFrame(rock);
   // We should kick off the animation of the rock around here.
 
   // Add the rock to ROCKS so that we can remove all rocks
