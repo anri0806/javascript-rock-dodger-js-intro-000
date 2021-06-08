@@ -46,10 +46,11 @@ function createRock(x) {
   rock.style.left = `${x}px`
   rock.style.top = top
 
+  document.append(rock)
+
   var top = 0
 
-
-
+  
   /**
    * Now that we have a rock, we'll need to append
    * it to GAME and move it downwards.
