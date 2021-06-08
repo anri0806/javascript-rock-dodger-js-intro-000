@@ -50,6 +50,10 @@ function createRock(x) {
 
   
   function moveRock() {
+  if (){
+    
+  }
+
     /**
      * If a rock collides with the DODGER,
      * we should call endGame().
