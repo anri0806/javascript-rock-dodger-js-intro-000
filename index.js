@@ -92,7 +92,7 @@ function moveDodger(e) {
 function moveDodgerLeft() {
  var position = positionToInteger(dodger.style.left)
  window.requestAnimationFrame(function moveLeft() {
-   DODGER.style.left = `${position - 4}px}`})
+   dodger.style.left = `${position - 4}px}`})
  }
 
 
