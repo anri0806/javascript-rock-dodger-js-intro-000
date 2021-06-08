@@ -83,7 +83,7 @@ function moveDodger(e) {
  if(e.which === 37) {
    moveDodgerLeft();
    e.preventDefault();
-   e.stopPropagation()
+   e.stopPropagation();
  } else if (e.which === 39) {
    moveDodgerRight();
  }
