@@ -47,7 +47,7 @@ function createRock(x) {
   rock.style.top = '0px';
   GAME.appendChild(rock);
 
-  var top = 0
+  var top = 0;
 }
 
   /**
