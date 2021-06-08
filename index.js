@@ -51,7 +51,7 @@ function createRock(x) {
 
   function moveRock() {
   if (rock ){
-    
+
   }
 
     /**
