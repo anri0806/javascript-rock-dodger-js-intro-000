@@ -44,11 +44,11 @@ function createRock(x) {
 
   rock.className = 'rock'
   rock.style.left = `${x}px`
+  rock.style.top = top
 
-  // Hmmm, why would we have used `var` here?
   var top = 0
 
-  rock.style.top = top
+
 
   /**
    * Now that we have a rock, we'll need to append
