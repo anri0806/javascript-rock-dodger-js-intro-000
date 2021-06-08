@@ -85,7 +85,7 @@ var position = positionToInteger(dodger.style.left)
    if(position > LEFT_WALL) {
      moveDodgerLeft();
    }
-  
+
  } else if (e.which === 39) {
    moveDodgerRight()
  }
