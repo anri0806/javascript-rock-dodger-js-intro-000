@@ -106,7 +106,8 @@ function moveDodgerRight() {
 
  window.requestAnimationFrame(function moveRight(){
    dodger.style.left = `${position + 4}px`)
- }}
+ }
+}
 
 /**
  * @param {string} p The position property
