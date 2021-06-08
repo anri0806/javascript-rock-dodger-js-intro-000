@@ -80,14 +80,10 @@ function endGame() {
 }
 
 function moveDodger(e) {
-var position = positionToInteger(dodger.style.left)
  if(e.which == 37) {
-   if(position > LEFT_WALL) {
-     moveDodgerLeft();
-   } else if (e.which === 39) {
-      if(position < RIGHT_WALL) {
-        moveDodgerRight()
-      }
+   moveDodgerLeft()
+ } else if (e.which === 39) {
+   moveDodgerRight()
  }
 }
 
