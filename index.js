@@ -88,7 +88,7 @@ function moveDodger(e) {
    * And be sure to use the functions declared below!
    */
  moveDodgerLeft()
- if()
+ if(e.which === 37)
 }
 
 function moveDodgerLeft() {
