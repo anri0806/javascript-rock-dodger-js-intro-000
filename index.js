@@ -50,6 +50,7 @@ function createRock(x) {
 
 
   function moveRock() {
+   rock.style.top = `${top += 2}px`;
   if (ROCK){
 
   }
