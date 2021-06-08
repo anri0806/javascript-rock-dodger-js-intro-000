@@ -92,7 +92,7 @@ function moveDodger(e) {
 function moveDodgerLeft() {
  var position = positionToInteger(dodger.style.left)
  window.requestAnimationFrame(function moveLeft() {
-   if(position > 380) {
+   if(position > 20) {
    dodger.style.left = `${position - 4}px}`}})
  }
 
