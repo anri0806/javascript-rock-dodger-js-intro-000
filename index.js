@@ -98,8 +98,9 @@ function moveDodgerRight() {
  var position = positionToInteger(dodger.style.left)
 
  window.requestAnimationFrame(function moveRight(){
+   if (position < 360) {
    dodger.style.left = `${position + 4}px`})
- }
+ }}
 
 /**
  * @param {string} p The position property
