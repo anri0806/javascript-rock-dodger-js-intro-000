@@ -44,11 +44,9 @@ function createRock(x) {
 
   rock.className = 'rock';
   rock.style.left = `${x}px`;
-  rock.style.top = '0px';
-  GAME.appendChild(rock);
+  var top = rock.style.top = 0
 
-  var top = 0
-}
+  GAME.appendChild(rock);
 
   /**
    * This function moves the rock. (2 pixels at a time
