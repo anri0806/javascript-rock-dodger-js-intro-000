@@ -48,7 +48,7 @@ function createRock(x) {
 
   GAME.appendChild(rock);
 
-  
+
   function moveRock() {
   if (){
     
